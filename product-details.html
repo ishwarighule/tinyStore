@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>All products</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+            <a href="index.html">
+              <img src="image/tinys.png" alt="" width="125px">
+            </a>
+        </div>
+
+        <nav>
+          <ul id="menuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#aboutus">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+        </nav>
+
+        <a href="cart.html">
+            <img class="cart" src="image/cart.png" width="25px" height="25px">
+        </a>
+
+        <img class="menu-icon" src="image/menu.png" onclick="menutoggle()">
+      </div>
+    </div>
+
+    <!----------- product description------->
+
+    <div class="small-container single-product">
+      <div class="row">
+        <div class="col-2">
+            <img src="image/dress (13).jpg" width="100%" id="productimg" />
+
+        <div class="small-img-row">
+
+          <div class="small-img-col">
+            <img src="image/dress (13).jpg" width="100%" class="small-img" />
+          </div>
+
+          <div class="small-img-col">
+            <img src="image/prod-deets (1).jpg" width="100%" class="small-img" />
+          </div>
+
+          <div class="small-img-col">
+            <img src="image/prod-deets (2).jpg" width="100%" class="small-img" />
+          </div>
+
+          <div class="small-img-col">
+            <img src="image/prod-deets (3).jpg" width="100%" class="small-img" />
+          </div>
+
+        </div>
+    </div>
+
+        <div class="col-2">
+          <p>Home / Dress</p>
+          <h1>Lancy White Dress</h1>
+          <h4>$59</h4>
+          <select>
+            <option>Select Size</option>
+            <option>XS</option>
+            <option>S</option>
+            <option>M</option>
+            <option>L</option>
+            <option>XL</option>
+            <option>XXL</option>
+          </select>
+          <input type="number" value="1" />
+          <a href="cart.html" class="btn">Add to Cart</a>
+          <h3>Product Details<i class="fa fa-indent"></i></h3>
+          <br/>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus labore quam minima veritatis illum quia voluptas
+            similique nobis aut quos. Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Perferendis, odit.
+          </p>
+        </div>
+      </div>
+
+    <!--------------------title---------------------->
+
+    <div class="small-container">
+      <div class="row row-2 viewmore">
+        <h2>Related Products</h2>
+
+        <a href="products.html">
+            <p>View More</p>
+        </a>
+      </div>
+    </div>
+
+    <!-------------------products---------------------->
+
+    <div class="small-container">
+      <div class="row">
+        <div class="col-4">
+          <img src="image/product-12.jpg" />
+          <h4>Black Trendy Jogger</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+          </div>
+          <p>$45.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="image/product-10.jpg" />
+          <h4>Black Football Shoes</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$55.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="image/product-9.jpg" />
+          <h4>Titan Casio Watch</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+          </div>
+          <p>$70.00</p>
+        </div>
+
+        <div class="col-4">
+          <img src="image/product-11.jpg" />
+          <h4>Gresy Pumpy Snekers</h4>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+    <!----------Footer---------->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>
+              Download our app for android<br />
+              and ios mobile phones
+            </p>
+            <div class="app-logo">
+              <img src="image/play-store.png" alt="" />
+              <img src="image/app-store.png" alt="" />
+            </div>
+          </div>
+
+          <div class="footer-col-2">
+            <img src="image/tinys.png" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />adipisicing elit.
+              Dolorum mollitia distinctio <br />placeat suscipit qui expedita
+              nihil,<br />
+              temporibus tempora beatae.
+            </p>
+          </div>
+
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Cupons</li>
+              <li>Blog posts</li>
+              <li>Return Policy</li>
+              <li>Join Affiliate</li>
+            </ul>
+          </div>
+
+          <div class="footer-col-4">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+              <li>Linkedin</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2020-TinyStore</p>
+      </div>
+    </div>
+
+    <!----------JS for Toggle Menu ---------->
+
+    <script>
+      var menuItems = document.getElementById("menuItems");
+      menuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (menuItems.style.maxHeight == "0px") {
+          menuItems.style.maxHeight = "200px";
+        } else {
+          menuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+
+    <!----------JS for product gallery ---------->
+
+    <script>
+      var productimg = document.getElementById("productimg");
+      var smallImg = document.getElementsByClassName("small-img");
+
+      smallImg[0].onclick = function () {
+        productimg.src = smallImg[0].src;
+      };
+
+      smallImg[1].onclick = function () {
+        productimg.src = smallImg[1].src;
+      };
+
+      smallImg[2].onclick = function () {
+        productimg.src = smallImg[2].src;
+      };
+
+      smallImg[3].onclick = function () {
+        productimg.src = smallImg[3].src;
+      };
+    </script>
+  </body>
+</html>

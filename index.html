@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiny Store</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+      <div class="header">        
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="image/tinys.png" alt="" width="125px">
+            </a>
+          </div>
+
+          <nav>
+            <ul id="menuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="#aboutus">About Us</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="account.html">Account</a></li>
+            </ul>
+          </nav>
+          <a href="cart.html">
+            <img class="cart" src="image/cart.png" width="25px" height="25px">
+          </a>
+          <img class="menu-icon" src="image/menu.png" onclick="menutoggle()" >
+        </div>
+
+        <div class="row">
+
+          <!-------<div class="col-2 ">
+            <img src="image/cover-final.png" alt=""  width="800px">
+          </div>-------->
+
+          <div class="col-2">
+            <h1>Give Yourself <br/>A New Style </h1>
+            
+            <p>Lorem ipsum dolor sit<br> amet consectetur adipisicing elit.</p>
+
+            <a class="btn" href="products.html">Explore Now &#8594;</a>
+          </div>
+
+          <div class="col-2 ">
+            <img src="image/download (1).png" alt="" ">
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-----------Shop By Category------->
+
+    <div class="categories">
+      <div class="small-container">
+        <h2 class="title">Shop By Category</h2>
+
+      <div class="row">
+        <div class="col-3">
+          <a href="handbag.html">
+          <img src="image/bag (1).jpg" alt="" width="3000px" height="400px">
+          <h3 class="cate"> Handbag </h3>
+        </a>
+        </div>
+        <div class="col-3">
+          <a href="dress.html">
+          <img src="image/dress (2).jpg" alt="" width="300px" height="400px">
+          <h3 class="cate"> Dress </h3>
+        </a>
+        </div>        
+        <div class="col-3">          
+        <a href="jwellery.html">
+          <img src="image/jwl 2 (11).jpg" alt="" width="300px" height="400px">
+          <h3 class="cate"> Jwellery </h3>
+        </a>
+
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!-----------featured products------->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+      <div class="col-4">
+
+        <a href="product-details.html">
+          <img src="image/dress (13).jpg"  width="300px" height="310px">          
+        </a>
+        <h4>Lancy White Dress </h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o" ></i>
+          <i class="fa fa-star-o"></i>
+        </div>
+        <p class="price">$59</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/dress (1).jpg" >
+        <h4> Cath Black French Dress </h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p class="price">$78.00</p>
+      </div>
+    
+      <div class="col-4">
+        <img src="image/dress (8).jpg">
+        <h4>Lora White Polka Dress</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p class="price">$35.00</p>
+      </div>
+
+      <div class="col-4">
+        <a href="prod-jwl.html">
+        <img src="image/jwl 2 (5).jpg" width="300px" height="325px">
+        <h4>Pine Gold Earrings</h4>
+      </a>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+        </div>
+        <p class="price">$60.00</p>
+      </div>    
+    </div>
+
+
+    <!----------------------------New Arrivals-------------------->
+
+    <h2 class="title">New Arrivals</h2>
+
+    <div class="row">
+      <div class="col-4">
+        <img src="image/bag (4).jpg" width="330px" height="320px">
+        <h4>Heny Golden Coated Handbag</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$85.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/dress (4).jpg" width="330px" height="320px">
+        <h4>Classic Sequen Dress</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$65.00</p>
+      </div>
+    
+      <div class="col-4">
+        <img src="image/jwl 2 (3).jpg" width="350px" height="320px">
+        <h4>Antiella Neclace</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$50.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/dress (6).jpg" width="330px" height="320px">
+        <h4>Nancy Blue Dress </h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+        </div>
+        <p>$60.00</p>
+      </div>    
+    </div>
+
+
+    <div class="row">
+      <div class="col-4">
+        <img src="image/dress (9).jpg" width="330px" height="320px">
+        <h4> Hasley Brown Dress</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o"></i>
+        </div>
+        <p>$45.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/jwl 2 (8).jpg" width="300px" height="300px">
+        <h4>Embrodaried Silver Nacklace </h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$55.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/bag (3).jpg"width="300px" height="320px">
+        <h4>Penny Leather Sling Bag</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star"></i>
+        </div>
+        <p>$70.00</p>
+      </div>
+
+      <div class="col-4">
+        <img src="image/dress (10).jpg" width="330px" height="320px">
+        <h4>Pepy Floral Maxi Dress</h4>
+        <div class="rating">
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-o" ></i>
+        </div>
+        <p>$100.00</p>
+      </div>    
+    </div>
+  </div>
+
+  
+ <!-------------------band-------------->
+
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        
+        <div class="col-2">
+          <img src="image/jwl 2 (9).jpg" class="offer-img" alt="">          
+        </div>
+      
+        <div class="col-2">
+          <h1>Levy Gold Ring</h1>
+          <h2>For Him & Her</h2>
+          <br>
+          <small>Lorem ipsum dolor sit amet, 
+            consectetur adipisicing<br> elit. Consectetur quos 
+            excepturi eaque animi ut <br>repudiandae earum in, 
+            cum suscipit sequi!<br><br></small>
+            <p style="font-weight: bold;">Exclusively Available on TinyStore</p>
+          
+          <a href="" class="btn">Buy Now &#8594 </a>
+          </div>
+      </div>
+    </div>
+  </div>
+
+ <!-------------------testimonial-------------->
+
+ <div class="testimonial">
+   <div class="small-container">
+     <div class="row">
+       <div class="col-3">
+        <i class="fa fa-quote-left" ></i>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam pariatur incidunt illo suscipit consequatur earum.</p>
+         <div class="rating">
+         <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+       </div>
+       <img src="image/user-1.png" alt="">
+       <h3>Siya Agarwal</h3>  
+      </div>
+
+      <div class="col-3">
+        <i class="fa fa-quote-left" ></i>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam pariatur incidunt illo suscipit consequatur earum.</p>
+         <div class="rating">
+         <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+       </div>
+       <img src="image/user-2.png" alt="">
+       <h3>Atharv Ghule</h3>  
+      </div>
+
+      <div class="col-3">
+        <i class="fa fa-quote-left" ></i>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam pariatur incidunt illo suscipit consequatur earum.</p>
+         <div class="rating">
+         <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star" ></i>
+          <i class="fa fa-star-half-o" ></i>
+       </div>
+       <img src="image/user-3.png" alt="">
+       <h3>Isha Shrivastava</h3>  
+      </div>
+      </div>
+     </div>
+   </div>
+ </div>
+
+ <!----------------Brands----------->
+
+ <div class="brands">
+   <div class="small-container">
+     <div class="row">
+       <div class="col-5">
+         <img src="image/logo-godrej.png" alt="">
+       </div>
+
+       <div class="col-5">
+        <img src="image/logo-oppo.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="image/logo-paypal.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="image/logo-coca-cola.png" alt="">
+      </div>
+
+      <div class="col-5">
+        <img src="image/logo-philips.png" alt="">
+      </div>
+     </div>
+   </div>
+ </div>
+
+ <!----------Footer---------->
+<div class="footer">
+ <div class="container">
+   <div class="row">
+     <div class="footer-col-1">
+       <h3>Download Our App</h3>
+       <p>Download our app for android<br> and ios mobile phones</p>
+       <div class="app-logo">
+         <img src="image/play-store.png" alt="">
+         <img src="image/app-store.png" alt="">
+       </div>
+     </div>
+
+     <div class="footer-col-2">
+      <img src="image/tinys.png">
+      <p>Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Dolorum mollitia distinctio <br>placeat suscipit qui expedita nihil,<br> temporibus tempora beatae.</p>
+    </div>
+
+    <div class="footer-col-3">
+      <h3>Useful Links</h3>
+      <ul>
+        <li>Cupons</li>
+        <li>Blog posts</li>
+        <li>Return Policy</li>
+        <li>Join Affiliate</li>
+      </ul>    
+    </div>
+
+    <div class="footer-col-4">
+      <h3>Follow Us</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Twitter</li>
+        <li>Instagram</li>
+        <li>Linkedin</li>
+      </ul>    
+    </div>
+  </div>
+  <hr>
+  <p class="copyright"> Copyright 2020-TinyStore</p>
+
+ </div>
+</div>
+
+ <!----------JS for Toggle Menu ---------->
+
+ <script>
+   var menuItems= document.getElementById("menuItems");
+   menuItems.style.maxHeight="0px";
+   function menutoggle(){
+     if(menuItems.style.maxHeight=="0px")
+     {
+       menuItems.style.maxHeight="200px"
+     }
+     else{
+       menuItems.style.maxHeight="0px";
+     }
+   }
+ </script>
+
+  </body>
+</html>
