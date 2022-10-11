@@ -1,6 +1,6 @@
 # tinyStore
 
-This is an e-commerce web application. I have build the web application. This is build using HTML, CSS and Javascript.
+This is an e-commerce web application. I have build the web application. This is build using HTML, CSS and PHP.
 It contains adding products to cart, different pages, registration and login form. It includes different sections of products.
 
 ![1](https://user-images.githubusercontent.com/87072876/141235023-1310026f-5ae2-49a2-b9ed-a13479baa4ba.PNG)
